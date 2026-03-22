@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body { background: #0f1117; color: #e2e8f0; }
+
+.tag { @apply inline-flex items-center gap-1 px-2 py-0.5 rounded text-xs bg-slate-700 text-slate-200; }
+.tag-remove { @apply opacity-50 hover:opacity-100 cursor-pointer; }
+.field-label { @apply block text-xs font-medium text-slate-400 mb-1; }
+.field-input { @apply w-full bg-[#1e2230] border border-[#2e3348] rounded px-3 py-2 text-sm text-slate-200 focus:outline-none focus:border-indigo-500; }
+.field-textarea { @apply w-full bg-[#1e2230] border border-[#2e3348] rounded px-3 py-2 text-sm text-slate-200 focus:outline-none focus:border-indigo-500 resize-none; }
+.btn-primary { @apply px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm rounded font-medium transition-colors; }
+.btn-ghost { @apply px-3 py-1.5 bg-transparent hover:bg-slate-700 text-slate-300 text-sm rounded transition-colors; }
+.btn-danger { @apply px-3 py-1.5 bg-red-900/60 hover:bg-red-800 text-red-300 text-sm rounded transition-colors; }
