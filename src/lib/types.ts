@@ -3,7 +3,7 @@ export interface StudioPattern {
   label: string;
   trigger: string;
   coreRule: string;
-  length: 'kurz' | 'mittel' | 'normal' | 'bullet-liste';
+  length: 'kurz' | 'mittel' | 'normal' | 'bullet-liste' | 'lang';
   triggerSignals: string[];
   triggerStates: string[];
   triggerPersonas: string[];
